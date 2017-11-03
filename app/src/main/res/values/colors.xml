@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#414044</color>
+    <color name="colorPrimaryDark">#f55813</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="buttonNormalColor">#E8E8E8</color>
+    <color name="buttonSelectedColor">#f55813</color>
+    <color name="buttonFocusedColor">#f55813</color>
+    <color name="buttonFadedColor">#EB4B5B</color>
+    <color name="fragmentbgColor">#f8e7b3</color>
+</resources>

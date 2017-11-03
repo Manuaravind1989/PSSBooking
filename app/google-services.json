@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "893946021949",
+    "firebase_url": "https://pss-booking.firebaseio.com",
+    "project_id": "pss-booking",
+    "storage_bucket": "pss-booking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893946021949:android:48048706f341dc4e",
+        "android_client_info": {
+          "package_name": "ccom.pss.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893946021949-3fm16o61b0g5di1iaoeioeoo2oq1r187.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ccom.pss.booking",
+            "certificate_hash": "D4D30DC7DD909EEA74BE1C3748529806B85A5BB6"
+          }
+        },
+        {
+          "client_id": "893946021949-a33ijtf7a84q13tano7m1thqkj90odpp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "893946021949-k5qrlk5otnp0l3ftmsb3k71f4j2vqaq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTURR9hSmGv7qT5LLQYo4aFAA351AyZg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893946021949-a33ijtf7a84q13tano7m1thqkj90odpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893946021949:android:de8cea30e5dd2eac",
+        "android_client_info": {
+          "package_name": "com.pss.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893946021949-lul8elk7tln7nsf2qavgn9jeo0in7ob0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pss.booking",
+            "certificate_hash": "9B98361F9AB48094C6E08D3A5AB4775D9208BDF8"
+          }
+        },
+        {
+          "client_id": "893946021949-a33ijtf7a84q13tano7m1thqkj90odpp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "893946021949-k5qrlk5otnp0l3ftmsb3k71f4j2vqaq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTURR9hSmGv7qT5LLQYo4aFAA351AyZg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893946021949-a33ijtf7a84q13tano7m1thqkj90odpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

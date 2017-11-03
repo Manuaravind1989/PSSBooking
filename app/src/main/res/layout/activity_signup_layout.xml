@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fr_bg"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/login_logo" />
+
+            <EditText
+                android:id="@+id/firstnameTextbox"
+                style="@style/FormEditText"
+                android:hint="First name"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+
+            <EditText
+                android:id="@+id/lastnameTextbox"
+                style="@style/FormEditText"
+                android:hint="Last name"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+
+            <EditText
+                android:id="@+id/emailTextbox"
+                style="@style/FormEditText"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black" />
+
+
+            <EditText
+                android:id="@+id/paswordTextbox"
+                style="@style/FormEditText"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dialoCode"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/drop_down_field"
+                    android:drawableRight="@drawable/arrow_icon"
+
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="(+91)IN"
+                    android:paddingRight="5dp"
+                    android:textSize="@dimen/abc_text_size_subhead_material" />
+
+                <EditText
+                    android:id="@+id/phoneTextbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_field"
+                    android:hint="***********"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/abc_text_size_subhead_material" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/LocationTextbox"
+                style="@style/FormEditText"
+                android:hint="Location"
+                android:inputType="text"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/SubmitButton"
+                style="@style/FormButton"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:background="@drawable/forgot_button_bg"
+                android:text="SUBMIT" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="Connect with us"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/facebookButton"
+                    android:layout_width="45dp"
+
+                    android:layout_height="45dp"
+                    android:background="@drawable/icon_facebook" />
+
+                <Button
+                    android:id="@+id/GooglePlusButton"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/icon_google_plus" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/icon_twitter" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/icon_linkedin" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sign_out_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="Signout"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="signout"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

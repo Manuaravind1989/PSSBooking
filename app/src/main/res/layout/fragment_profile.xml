@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fr_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.pss.booking.customview.RoundedImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_profile"
+            android:background="@drawable/profile_bg"
+            android:id="@+id/ProfileImage" />
+
+        <TextView
+            android:id="@+id/NameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="abc"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/emailidTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="xxxxxx@xxxx.com"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/header"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/EditButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:background="@color/colorPrimary"
+            android:paddingTop="5dp"
+            android:src="@drawable/icon_edit" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/border_icon" />
+
+        <ImageView
+            android:id="@+id/button7g"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:visibility="gone"
+            android:src="@drawable/icon_heart" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/border_icon" />
+
+        <ImageView
+            android:id="@+id/LogoutButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_log_out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/firstnameTextbox"
+                    style="@style/FormEditText"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black" />
+
+
+                <EditText
+                    android:id="@+id/lastnameTextbox"
+                    style="@style/FormEditText"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black" />
+
+
+                <EditText
+                    android:id="@+id/emailTextbox"
+                    style="@style/FormEditText"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@android:color/black" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dropdown_dial_code"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/drop_down_field"
+
+                        android:drawableRight="@drawable/arrow_icon"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:hint="(0091)IND"
+                        android:paddingRight="5dp" />
+
+                    <EditText
+                        android:id="@+id/phoneTextbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/input_field"
+                        android:hint="***********"
+                        android:inputType="phone"
+                        android:paddingLeft="10dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/newpaswordTextbox"
+                    style="@style/FormEditText"
+                    android:hint="New Password"
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/confirmpaswordTextbox"
+                    style="@style/FormEditText"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/SubmitButton"
+                    style="@style/FormButton"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/forgot_button_bg"
+                    android:text="SUBMIT" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

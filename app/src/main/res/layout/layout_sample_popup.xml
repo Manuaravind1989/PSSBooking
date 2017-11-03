@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pss.booking.customview.BubbleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:loc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="46px"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:bl_arrowDirection="top"
+    app:bl_arrowHeight="12dp"
+    app:bl_arrowPosition="300dp"
+    app:bl_arrowWidth="8dp"
+    app:bl_bubbleColor="#ffffff"
+    app:bl_cornersRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateHeader"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="OCT  2016"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <solar.blaz.date.week.WeekDatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            loc:wdp_dayBackground="@drawable/date_picker_day_bg"
+            loc:wdp_firstDayOfWeek="sunday"
+            loc:wdp_indicatorDrawable="@drawable/date_picker_indicator"
+            loc:wdp_labelPadding="5dp"
+            loc:wdp_labelTextSize="12sp" />
+    </LinearLayout>
+</com.pss.booking.customview.BubbleLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PSS</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <string name="facebook_app_id">710152182483660</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_hotles</item>
+        <item>@string/nav_travel</item>
+        <item>@string/nav_renting</item>
+        <item>@string/nav_industries</item>
+        <item>@string/nav_Aboutus</item>
+        <item>@string/nav_help</item>
+        <item>@string/nav_terms</item>
+        <item>@string/nav_services</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+    <string name="nav_hotles">HOTELS</string>
+    <string name="nav_travel">TRAVEL \u0026 TRANSPORTATION</string>
+    <string name="nav_renting">PRIVATE RENTING</string>
+    <string name="nav_industries">INDUSTRIES \u0026 EQUIPMENTS</string>
+    <string name="nav_Aboutus">ABOUT US</string>
+    <string name="nav_help">HELP</string>
+    <string name="nav_terms">TERMS \u0026 CONDITIONS</string>
+    <string name="nav_services">SERVICES</string>
+    <string name="nav_hire">HIRE</string>
+    <string name="nav_postAdd">POST ADD</string>
+
+    <string name="profile">PROFILE</string>
+    <string name="dollar">\u0024</string>
+
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTRATION</string>
+    <string name="forgotpassword">FORGOT PASSWORD</string>
+
+    <string name="tryAgain">Try Again</string>
+    <string name="welcome">Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets. Android user interface is mainly based on direct manipulation, using touch gestures that loosely correspond to real-world actions, such as swiping, tapping and pinching, to manipulate on-screen objects, along with a virtual keyboard for text input.</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+
+</resources>

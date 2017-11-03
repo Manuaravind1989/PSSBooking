@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fr_bg"
+    android:orientation="vertical"
+
+    tools:context="info.androidhive.materialdesign.activity.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/PrivateButton"
+            style="@style/HomeButton"
+            android:text="Private" />
+
+        <Button
+            android:id="@+id/BussinessButton"
+            style="@style/HomeButton"
+            android:text="Bussiness" />
+
+        <Button
+            android:id="@+id/OrganizationButton"
+            style="@style/HomeButton"
+            android:text="Organization" />
+    </LinearLayout>
+</LinearLayout>
